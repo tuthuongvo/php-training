@@ -1,0 +1,520 @@
+I'm looking for...,Tôi đang tìm sản phẩm...
+Search,Tìm kiếm
+Login,Đăng nhập
+Register,Đăng ký
+Sign Up,Đăng ký
+Contact us,Liên hệ
+Shop By Department,Danh mục sản phẩm
+My Account,Tài khoản của tôi
+My Orders,Đơn đặt hàng của tôi
+My Wishlist,Sản phẩm yêu thích
+My Cart,Giỏ hàng của tôi
+Log Out,Đăng xuất
+Free Delivery,Miễn phí vận chuyển
+"For all orders over 2,000,000đ","Cho tất cả đơn hàng trên 2,000,000đ"
+"Authentic Products",Hàng Chính Hãng
+"Legitimate Origin",Xuất xứ rõ ràng
+Secure Payment,Thanh toán an toàn
+Support COD and Cards,Hỗ trợ tiền mặt và thẻ
+Customer Service Support,Tổng Đài CSKH
+9:00 - 18:00,9:00 - 18:00
+Monday - Friday,Thứ 2 - Thứ 6
+Top Categories Of The Month,Danh mục hàng đầu trong tháng
+Deals Of The Day,Giá sốc hôm nay
+Best Seller,Bán chạy nhất
+Recently Viewed Products,Các sản phẩm đã xem gần đây
+View All,Xem thêm
+Add to cart,Thêm vào giỏ hàng
+Quick View,Xem trước
+Add to Wishlist,Thêm vào danh sách yêu thích
+Add to Compare,Thêm so sánh
+Top,Trở lên đầu trang
+"You added product %1 to the <a href=""""%2"""">comparison list</a>.","Bạn đã thêm %1 sản phẩm vào <a href=""""%2"""">danh sách so sánh</a>"
+%1 has been added to your Wish List. Click here to continue shopping.,%1 đã được thêm vào danh sách yêu thích của bạn. Bấm vào đây để tiếp tục mua sắm,module,Magento_Wishlist
+Quick links,Truy cập nhanh
+Our Policies,Chính sách của chúng tôi
+Terms & Conditions,Điều khoản & Dịch vụ
+How to Buy,Hướng dẫn mua hàng
+FAQs,Câu hỏi thường gặp
+Company,Về COCORO Life
+About COCORO Life,Về COCORO Life
+Contact Us,Liên hệ với chúng tôi
+Our Mobile App,Tải ứng dụng trên điện thoại
+Follow Us,Kết nối với chúng tôi
+© 2021 COCORO Life. All Rights Reserved,© 2021 COCORO Life. Bản quyền thuộc về COCORO Life
+Our Payment Provider,Đối tác dịch vụ thanh toán
+SHARP ELECTRONICS (VIETNAM) COMPANY LIMITED,CÔNG TY TNHH ĐIỆN TỬ SHARP VIỆT NAM
+"Address: T5-B03.07 & T5-B03.09, Floor No.3 Masteri Thao Dien","Địa chỉ: T5-B03.07 & T5-B03.09, Lầu 3 Masteri Thảo Điền"
+"159 Ha Noi Highway Thao Dien Ward,Thu Duc, Ho Chi Minh city, Vietnam","159 Xa Lộ Hà Nội, Phường Thảo Điền, T.P Thủ Đức, T.P Hồ Chí Minh, Việt Nam"
+My Account,Tài khoản của tôi
+Total purchased,Bạn đã chi
+Spend %1 more to become VIP member,Mua thêm %1 để trở thành thành viên VIP
+Freeshipping for all orders from %1 and above,Miễn phí giao hàng với tất cả đơn hàng từ %1 trở lên
+Discounts on certain products,Giảm giá trên một số mặt hàng nhất định
+Contact,Liên hệ
+Social Accounts,Tài khoản mạng xã hội
+Connect Now,Liên kết ngay
+Connected,Đã liên kết
+Edit,Chỉnh sửa
+Change Password,Đổi mật khẩu
+Address book,Sổ địa chỉ
+Manage Addresses,Quản lý địa chỉ
+Billing Address,Địa chỉ thanh toán
+You have not set a default billing address,Bạn chưa thiết lập địa chỉ thanh toán mặc định
+Edit Address,Sửa địa chỉ
+Shipping Address,Địa chỉ giao hàng
+You have not set a default shipping address.,Bạn chưa thiết lập địa chỉ vận chuyển mặc định.
+My Orders,Đơn đặt hàng của tôi
+Reorder,Đặt hàng lại
+You have placed no orders.,Bạn chưa có đơn đặt hàng nào
+Order #,Đơn hàng #
+Date,Ngày
+Ship To,Vận chuyển đến
+Order Total,Tổng đơn đặt hàng
+Status,Trạng thái
+My Wishlist,Sản phẩm yêu thích
+You have no items in your wish list,Bạn chưa có sản phẩm nào trong danh sách yêu thích
+Update Wish List,Cập nhật danh sách yêu thích
+Share Wish List,Chia sẻ danh sách yêu thích
+Add all to Cart,Thêm tất cả vào giỏ hàng
+Address Book,Sổ địa chỉ
+Default Addresses,Địa chỉ mặc định
+Default Billing Address,Địa chỉ thanh toán mặc định
+Change Billing Address,Thay đổi địa chỉ thanh toán
+Default Shipping Address,Địa chỉ giao hàng mặc định
+Change Shipping Address,Thay đổi địa chỉ giao hàng
+Additional Address Entries,Thêm địa chỉ khác
+You have no other address entries in your address book.,Bạn chưa có địa chỉ khác trong sổ địa chỉ
+Add New Address,Thêm địa chỉ mới
+Account Information,Thông tin tài khoản
+Edit Account Information,Chỉnh sửa thông tin tài khoản
+First Name,Họ
+Last Name,Tên
+Change Email,Thay đổi Email
+Street Address %1,"Địa chỉ đường, dòng số %1"
+Change Password,Đổi mật khẩu
+Current Password,Mật khẩu hiện tại
+New Password,Mật khẩu mới
+Password Strength,Độ bảo mật
+No Password,Không có
+Weak,Yếu
+Medium,Vừa phải
+Strong,Mạnh
+Confirm New Password,Xác nhận mật khẩu mới
+Save,Lưu lại
+My Product Reviews,Đánh giá của tôi
+You have submitted no reviews.,Bạn chưa có đánh giá nào.
+Cash On Delivery,Thanh toán COD
+Pay cash when we deliver your order.,Thanh toán tiền mặt khi chúng tôi giao hàng cho bạn
+Transaction ID,ID Giao Dịch
+Your account was successfully unlinked.,Bạn đã ngắt kết nối với tài khoản mạng xã hội
+Items %1 to %2 of %3 total,Mục %1-%2 /%3
+Email,Email
+Pasword,Mật khẩu
+Forgot password?,Quên mật khẩu?
+Log In,Đăng nhập
+Login with %1,Đăng nhập với tài khoản %1
+An unspecified error occurred. Please try again later.,Lỗi đã xảy ra. Vui lòng thử lại sau
+You have successfully logged in using your %1 account.,Bạn đã đăng nhập thành công với tài khoản %1
+The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.,Thông tin đăng nhập không đúng hoặc tài khoản của bạn đang tạm thời bị khóa. Xin vui lòng đợi và thử lại sau.
+You must login or register to add items to your wishlist.,Bạn phải đăng nhập hoặc đăng ký để thêm sản phẩm này vào danh sách yêu thích,module,Magento_Wishlist
+Please enter your email address below to receive a password reset link.,Vui lòng nhập địa chỉ email của bạn để nhận liên kết đặt lại mật khẩu.
+Please type the letters and numbers below,Vui lòng nhập kí tự và chữ số ở phía dưới
+Reset My Password,Đặt lại mật khẩu của tôi
+Go back,Quay lại
+Reload Captcha,Tải lại Captcha
+Incorrect Captcha,Captcha không đúng
+Please enter a valid email (i.g: johndoe@domain.com),Vui lòng nhập một địa chỉ email hợp lệ (ví dụ: johndoe@domain.com).
+We received too many requests for password resets. Please wait and try again later or contact %1.,Chúng tôi nhận được quá nhiều yêu cầu đổi lại mật khẩu. Xin vui lòng thử lại sau hoặc liên hệ với %1.,module,Magento_Security
+"If there is an account associated with %1, you will receive an email with a link to reset your password.","Nếu có một tài khoản liên kết với %1, bạn sẽ nhận được một đường liên kết để lấy lại mật khẩu."
+You Are Signed Out,Bạn đã đăng xuất
+You have signed out and will go to our homepage in 5 seconds.,Bạn đã đăng xuất và sẽ trở về trang chủ của chúng tôi trong vòng 5 giây nữa.,module,Magento_Catalog
+First Name,Họ
+Last Name,Tên
+Phone Number,Số điện thoại
+Email,Email
+Password,Mật khẩu
+Password Strength,Độ bảo mật
+Weak,Yếu
+Medium,Vừa phải
+Strong,Mạnh
+Very Strong,Rất mạnh
+Confirm Password,Xác nhận lại mật khẩu
+Create an account,Tạo tài khoản
+Login with Google,Đăng nhập với tài khoản Google
+Login with Facebook,Đăng nhập với tài khoản Facebook
+Minimum length of this field must be equal or greater than %1 symbols. Leading and trailing spaces will be ignored.,"Tối thiểu 8 ký tự, bao gồm: chữ, chữ hoa, chữ số, ký tự đặc biệt. Không tính dấu cách"
+"Minimum of different classes of characters in password is %1, including: Lower Case, Upper Case, Digits & Special Characters.","Tối thiểu phải có %1 nhóm ký tự khác nhau trong mật khẩu, bao gồm: chữ, chữ hoa, chữ số, ký tự đặc biệt."
+This is a required field,Đây là trường bắt buộc.
+Home,Trang chủ
+Categories,Danh mục sản phẩm
+Highlight,Nổi bật
+By Brand,Thương hiệu
+By Price,Giá
+By Manufacturer,Nhà sản xuất
+Delivery & Payment,Vận chuyển và thanh toán
+By Review,Đánh giá
+By Color,Màu sắc
+Recommended Items,Sản phẩm đề xuất
+Best Seller In the Last Month,Bán chạy nhất tháng trước
+Items %1-%2 of %3,%3 sản phẩm tìm được
+View by,Xem theo
+Grid,Ô
+List,Danh sách
+Sort by Default,Sắp xếp theo thứ tự mặc định
+Previous Page,Trang trước
+Next page,Trang tiếp
+Recently Viewed Products,Sản phẩm bạn đã xem
+Position, Thứ tự ưu tiên
+Product Commercial Name, Tên sản phẩm
+Price, Giá
+Brand,Thương hiệu
+Home,Trang chính
+Reviews,Đánh giá
+Status,Tình trạng
+"Return accecpted if product not as described, buyer pays return shipping fee; or keep the product & agree refund with seller.","Chấp nhận đổi trả hàng nếu sản phẩm không đúng như mô tả, người mua trả tiền vận chuyển; hoặc giữ sản phẩm và đồng ý để người bán hoàn tiền lại."
+In stock,Còn hàng
+Out of stock,Hết hàng
+Easy payment online or bank wire transfer,Dễ dàng thanh toán trực tuyến hoặc chuyển khoản ngân hàng
+Quantity,Số lượng
+Add to cart,Thêm vào giỏ hàng
+Categories,Danh mục
+Category,Danh mục
+Tags,Tags
+Roll over image to zoom in,Lướt vào ảnh để phóng to
+Description,Mô Tả
+Details,Mô Tả
+Specification,Thêm Thông Tin
+Reviews,Đánh Giá của Khách Hàng
+Your Name,Họ và tên,module,Magento_Review
+Summary,Tiêu đề
+Your Review,Nhận xét của bạn
+Your Rating,Đánh giá về
+Quality,Chất lượng
+Contentment,Độ hài lòng
+Price,Giá tiền
+Submit Review,Gửi đánh giá
+Your review has been submitted.,Đánh giá của bạn đã được ghi nhận,module,Magento_Review
+Customers who bought this item also bought,Khách hàng mua sản phẩm này cũng sẽ quan tâm đến
+Don't Miss Out! This promotion will expires in,ĐỪNG BỎ LỠ! CHƯƠNG TRÌNH KHUYẾN MÃI SẼ KẾT THÚC SAU:
+Sold items,Sản phẩm đã được bán
+Sold,Đã được bán
+Days,Ngày
+Hours,Giờ,module,MageBig_WidgetPlus
+Mins,Phút
+Secs,Giây,module,MageBig_WidgetPlus
+Related Products,Sản phẩm liên quan
+Recently Viewed Products,Các sản phẩm đã xem gần đây
+"Only registered users can write reviews. Please <a href=""%1"">Sign in</a> or <a href=""%2"">create an account</a>","Chỉ người dùng đã đăng ký mới được viết đánh giá. Vui lòng <a href=""%1"">đăng nhập</a> hoặc  <a href=""%2"">tạo tài khoản</a>"
+You cannot use decimal quantity for this product.,Bạn không được dùng số thập phân tại đây.
+Shipping,Vận chuyển
+Shipping Address,Địa chỉ giao hàng
+Email Address,Địa chỉ email
+You can create an account after checkout,Bạn có thể tạo tài khoản sau khi thanh toán
+First Name,Họ
+Last Name,Tên
+Street Address %1,"Địa chỉ đường, dòng số %1",module,Magento_Customer
+Street Address: Line %1,Địa chỉ đường: dòng số %1,module,Magento_Customer
+%1: Line %2,%1: dòng số %2,module,Magento_Checkout
+Country,Quốc gia
+District/Town,"Quận/Huyện/Thị Xã",module,Magento_Checkout
+"Please select a city, district or town.","Vui lòng chọn Quận, Huyện hoặc Thị Xã"
+State/Province,Tỉnh/Thành phố
+"Please select a region, state or province",Vui lòng chọn Tỉnh hoặc Thành Phố,module,Magento_Customer
+Zip/Postal Code,Mã Bưu Chính
+Phone Number,Số điện thoại
+Company,Công ty
+New Address,Địa chỉ mới
+Save in your address book,Lưu vào sổ địa chỉ của bạn
+Cancel,Hủy
+Ship here,Vận chuyển đến đây
+Shipping Method,Phương thức vận chuyển
+Log In,Đăng nhập
+Order Summary,Tóm tắt đơn hàng
+Item(s) in Cart,sản phẩm trong giỏ hàng,module,Magento_Checkout
+Item in Cart,sản phẩm trong giỏ hàng,module,Magento_Checkout
+Next,Tiếp theo
+"Sorry, no quotes are available for this order at this time","Xin lỗi, chưa có phương thức vận chuyển thích hợp cho sản phẩm này.",module,Magento_Checkout
+"Our apology for the inconvenience, currently we only ship to Ho Chi Minh City and Binh Duong City, please choose a different shipping address or create a new one to continue","Hiện tại, chúng tôi chỉ chấp nhận vận chuyển trong khu vực thành phố Hồ Chí Minh và Bình Dương, xin vui lòng chọn một địa chỉ khác hoặc tạo mới để tiếp tục. Xin lỗi quí khách vì sự bất tiện này."
+Currently we only support order delivery to Ho Chi Minh City and Binh Duong City! ,Hiện tại chúng tôi chỉ hỗ trợ giao hàng khu vực Tp.Hồ Chí Minh và Bình Dương!
+Other cities & provinces are being supported soon. ,Các tỉnh thành khác sẽ được hỗ trợ trong thời gian sớm nhất.
+Thank you!,Cám ơn quý khách!
+Your order is eligible for free shipping. Your order will be delivered within 5-7 days,Đơn hàng của bạn đã đủ điều kiện nhận miễn phí vận chuyển. Và sẽ được vận chuyển trong vòng 5-7 ngày tiếp theo
+The maximum you may purchase is,Số lượng tối đa bạn có thể đặt là
+The requested qty is not available,Số lượng không hợp lệ
+Review & Payments,Kiểm tra và Thanh toán
+Payment Method,Phương thức thanh toán
+Cash On Delivery,Thanh toán tiền mặt khi nhận hàng
+My billing and shipping address are the same,Địa chỉ thanh toán và giao hàng của tôi là giống nhau
+You will be redirected to the Payoo website.,Bạn sẽ được điều hướng đến trang thanh toán Payoo.
+Continue with Payoo,Tiếp tục với Payoo
+Apply Discount Code,Thêm mã khuyến mãi
+Enter discount code here,Nhập mã khuyến mãi ở đây,module,Magento_Checkout
+Submit,Áp dụng,module,Magento_Checkout
+Place Order,Đặt hàng
+Order Summary,Tóm tắt đơn hàng
+Cart Subtotal,Tạm tính giá trị giỏ hàng
+Shipping,Vận chuyển,module,Magento_Checkout
+Order Total,Thành tiền
+Ship To:,Vận chuyển đến:
+Shipping Method,Phương thức vận chuyển
+Something went wrong with your request. Please try again later.,Yêu cầu của bạn đang gặp lỗi. Vui lòng thử lại sau.
+Back to Cart,Trở về giỏ hàng,module,Magento_Checkout
+Cash On Delivery,Thanh toán COD
+Pay cash when we deliver your order.,Thanh toán tiền mặt khi chúng tôi giao hàng cho bạn
+Issue VAT invoice,Xuất hóa đơn VAT
+Fullname,Họ và tên
+Company name,Tên công ty
+Email,Email
+Tax number,Mã số thuế
+Company Address,Địa chỉ công ty
+We can't find products matching the selection.,Chúng tôi không thể tìm thấy sản phẩm bạn yêu cầu
+Your search returned no results.,Không có kết quả tìm kiếm
+Search results for: '%1',Kết quả tìm kiếm cho: '%1'
+Cart,Giỏ hàng
+Shopping Cart,Giỏ hàng
+Item,Mặt hàng,module,Magento_Theme
+Items,Mặt hàng
+Item(s),Mặt hàng
+Price,Đơn giá
+Quantity,Số lượng
+Total Amount,Thành tiền
+Continue Shopping,Tiếp tục mua sắm,module,Magento_Checkout
+Continue shopping,Tiếp tục mua sắm
+Back to Cart,Trở về giỏ hàng
+Update Cart,Cập nhật giỏ hàng
+Summary,Thông tin đơn hàng,module,Magento_Checkout
+Subtotal,Tạm tính
+Shipping fee,Phí vận chuyển
+Order Total,Tổng cộng
+Apply Discount Code,Nhập mã khuyến mãi
+Enter discount code here,Nhập mã khuyến mãi ở đây
+Apply,Áp dụng
+Proceed to Checkout,Tiến hành thanh toán
+You have no items in your shopping cart.,Bạn chưa có sản phẩm nào trong giỏ hàng
+Please login to checkout or register for an account if you don't already have one!,Xin hãy đăng nhập để thanh toán hoặc đăng ký tài khoản mới!
+This product is out of stock.,Sản phẩm này đã hết hàng.,module,Magento_Sales
+The requested qty exceeds the maximum qty allowed in shopping cart,Số lượng sản phẩm bạn đặt vượt quá hạn mức cho phép.
+Please enter a valid value. The two nearest valid values are %1 and %2.,Xin hãy nhập số lượng hợp lệ. Giá trị hợp lệ là %1 hoặc %2
+My Cart,Giỏ hàng của tôi
+Qty,Số lượng
+Subtotal,Tạm tính
+View Cart,Xem giỏ hàng
+Checkout,Thanh toán
+Remove,Xóa sản phẩm
+Thank You For Your Purchase!,Cảm ơn bạn đã thanh toán!
+Your order number is: %1.,Mã đơn hàng của bạn là: %1.,module,Magento_Checkout
+We'll email you an order confirmation with details and tracking info soon.,Chúng tôi sẽ gửi email xác nhận chi tiết đơn hàng và mã vận đơn trong thời gian sớm nhất
+Continue Shopping,Tiếp tục mua sắm
+Print Receipt,In hóa đơn
+Ohh! Page Not Found,Không tìm thấy trang!
+It seems we can't find what you're looking for. Perhaps searching can help or Go Back to the previous page.,"Chúng tôi không tìm thấy trang bạn yêu cầu, bạn sẽ được chuyển về trang trước"
+Hi %,Chào %
+"Welcome to %store_name, we are excited to have you here.","Chào mừng bạn đến với %store_name, rất vui khi bạn ở đây cùng chúng tôi"
+You can now login to our website and start shopping immediately.,Hãy đăng nhập ngay và bắt đầu mua sắm
+Happy shopping!,Chúc bạn mua sắm vui vẻ!
+Dear %,Xin chào %
+"There was recently a request to change the password for your account. If you requested this change, set a new password here:","Phát sinh một yêu cầu đổi mật khẩu cho tài khoản của bạn. Nếu bạn yêu cầu thay đổi này, xin đặt lại mật khẩu tại đây:"
+Set a New Password,Đặt lại mật khẩu mới
+"If you did not make this request, you can ignore this email and your password will remain the same.","Nếu bạn không thực hiện yêu cầu này, bạn có thể bỏ qua email này và mật khẩu của bạn sẽ không thay đổi."
+Thank you for your order on COCORO Life Vietnam. We will let you know when your order is ready to ship,Cảm ơn đơn đặt hàng của bạn tại COCORO Life Vietnam. Chúng tôi sẽ thông báo cho bạn khi đơn hàng sẵn sàng được vận chuyển.
+Order #,Đơn hàng số #
+Placed on,Đặt vào ngày
+Billing Info,Thông tin thanh toán
+Shipping Info,Thông tin vận chuyển
+Payment Method,Phương thức thanh toán
+Shipping Method,Phương thức vận chuyển
+Item,Mặt hàng
+Items,Mặt hàng
+Qty,Số lượng
+Price,Giá
+Order Totals,Giá trị đơn hàng
+Subtotal,Tạm tính
+Shipping fee,Phí vận chuyển
+Tax,Thuế
+Grand Total,Tổng cộng
+View My Order,Xem đơn hàng của tôi
+There is a new order on COCORO Life Vietnam.,Có một đơn hàng mới từ COCORO Life Vietnam
+Order Info,Thông tin đơn hàng
+Order Date,Ngày đặt hàng
+Order Status,Trạng thái đơn hàng
+Purchased From,Mua hàng từ
+Customer Info,Thông tin khách hàng
+Customer Name,Tên khách hàng
+Email,Email
+Customer Group,Nhóm khách hàng
+Your order status has been updated.,Trạng thái đơn hàng của bạn đã được cập nhật
+There is a new comment for order %,Có một bình luận mới cho đơn hàng %
+Your order is being prepared for shipment. Thank you for your patience!,Đơn hàng của bạn đang được chuẩn bị chuyển đi. Cảm ơn bạn đã đợi!
+Thank you for your order on COCORO Life Vietnam.,Cảm ơn đơn đặt hàng của bạn tại COCORO Life Vietnam.
+Your Credit Memo %1 for Order %2,Chứng từ thương mại số %1 cho đơn hàng %2
+Items Refunded,Sản phẩm trả về
+Item Refunded,Sản phẩm trả về
+Credit Memo Totals,Tổng kết chứng từ thương mại
+Adjustment Refund,Hoàn phí dịch vụ
+Adjustment Fee,Trừ phí dịch vụ
+"Street Address","Địa chỉ đường",module,Magento_Sales
+"Message","Tin nhắn",module,Magento_Sales
+"Please select a region, state or province.","Vui lòng chọn Tỉnh hoặc Thành Phố"
+"Please select a region, state or province.","Vui lòng chọn Tỉnh hoặc Thành Phố",module,Magento_Customer
+"Please select a city, district or town.","Vui lòng chọn Quận, Huyện hoặc Thị Xã"
+"Something went wrong with your request. Please try again later.","Yêu cầu của bạn đang gặp lỗi. Vui lòng thử lại sau."
+"Ship Here","Vận chuyển đến đây",module,Magento_Checkout
+"Back to Cart","Trở về giỏ hàng"
+"City","Quận/Huyện/Thị Xã"
+"Hours","Giờ",module,MageBig_WidgetPlus
+"Secs","Giây",module,MageBig_WidgetPlus
+"Please login to checkout or register for an account if you don't already have one!","Xin hãy đăng nhập để thanh toán hoặc đăng ký tài khoản mới!"
+"Street Address: Line %1","Địa chỉ đường: dòng số %1",module,Magento_Customer
+"This product is out of stock.","Sản phẩm này đã hết hàng.",module,Magento_Sales
+"%1: Line %2","%1: dòng số %2",module,Magento_Checkout
+"Item(s)","Sản phẩm"
+"Hi %name,","Xin chào %name,"
+"Dear %name,","Kính gửi %name,"
+"Cocoro Life Vietnam","Cocoro Life Việt Nam"
+"Welcome to Cocoro Life Vietnam, we are excited to have you here.","Chào mừng bạn đến với Cocoro Life Việt Nam, chúng tôi rất vui khi có bạn ở đây."
+"You can now login to our website and start surfing immediately.","Hãy đăng nhập ngay và bắt đầu mua sắm"
+"Happy shopping!","Chúc bạn mua sắm vui vẻ!"
+"Policies", "Chính sách"
+"Discount","Giảm giá"
+"Your account was successfully unlinked.","Bạn đã ngắt kết nối với tài khoản mạng xã hội"
+"The payment for your order ID <strong>%1</strong> could not be proceed. Please try again!","Không thể hoàn thành đơn hàng <strong>%1</strong>. Xin hãy thử lại sau!"
+"Your order will be automatically canceled after 24 hours if no payment is made.","Đơn hàng của bạn sẽ tự động huỷ sau 24 tiếng nếu không tiến hành thanh toán."
+"Dear %customer_name,","Xin chào %customer_name,"
+"Thank you for your order on Cocoro Life Vietnam. We will let you know when your order is ready to ship.","Cảm ơn bạn đã đặt hàng trên Cocoro Life Việt Nam. Chúng tôi sẽ cho bạn biết khi đơn hàng của bạn sẵn sàng được giao."
+"SHARP ELECTRONICS (VIETNAM) COMPANY LIMITED","CÔNG TY TNHH ĐIỆN TỬ SHARP VIỆT NAM"
+"Dear %name,","Xin chào %name,"
+"Your order has been updated.","Đơn hàng của bạn đã được cập nhật"
+"Thank you for your order on %store_name.","Cảm ơn bạn đã đặt hàng trên %store_name."
+"Dear Sales Admin,","Gửi Sales Admin,"
+"There is a new order on %store_name.","Đã có đơn đặt hàng mới trên %store_name."
+"Added","Đã thêm"
+"Continue to Payment","Thanh toán"
+"You will be redirected to the Payoo website.","Bạn sẽ được điều hướng đến trang thanh toán Payoo."
+"Shipping Fee","Phí vận chuyển"
+"We apologize, but your free gift <strong>%1</strong> is not available at the moment","Quà tặng <strong>%1</strong> đã hết hàng, chúng tôi xin lỗi vì sự bất tiện này",module,Amasty_Promo
+"Total Paid","Đã thanh toán",module,Magento_Sales
+"Total Refunded","Đã hoàn lại",module,Magento_Sales
+"Total Due","Tổng số tiền phải thu",module,Magento_Sales
+"Privacy Policy","Chính sách bảo mật"
+"Delivery - Return - Warranty","Vận chuyển - Đổi trả - Bảo hành"
+"On Sale","Sản phẩm đang khuyến mãi"
+"<a href=""%account_url"">View My Order</a>","<a href=""%account_url"">Xem đơn hàng của tôi</a>",module,Magento_Sales
+"Free gift <strong>%1</strong> was added to your shopping cart","Quà tặng miễn phí <strong>%1</strong> đã được thêm vào giỏ hàng của bạn"
+"<span class=""label"">Order Date:</span> %1","<span class=""label"">Ngày đặt hàng:</span> %1",module,Magento_Sales
+"Items Ordered","Sản phẩm đã đặt",module,Magento_Sales
+"Cancel order","Huỷ đơn hàng",module,Magento_Sales
+"No shipping information available","Chưa có thông tin vận chuyển phù hợp",module,Magento_Sales
+"Additional Info","Thông tin thêm"
+"Free Items","Quà tặng miễn phí"
+"No Payment Information Required","Không yêu cầu thông tin thanh toán"
+"Please enter the same value again.","Xin vui lòng nhập cùng một giá trị.",lib,web
+"Nickname","Tên của bạn",module,Magento_Review
+"You submitted your review for moderation.","Nhận xét của bạn đã được ghi nhận",module,Magento_Review
+"Opps! Payment Failed","Thanh toán không thành công!"
+"Continue shopping.","Tiếp tục mua sắm"
+"State","Tỉnh/Thành phố"
+"You will earn","Nhận được"
+"You will spend","Sử dụng"
+"Your balance: %s Coco Coins","Số dư của bạn: %s Coco Coins"
+"Choose how many points to spend","Bạn có thể sử dụng thanh trượt hoặc nhập số Coco Coins bạn muốn sử dụng vào ô bên dưới"
+"You are spending","Bạn đang sử dụng"
+"Spend Your Points","Sử dụng Coco Coins của bạn"
+"Maximize my discount with points","Sử dụng hết Coco Coins"
+"Earning","Nhận được"
+"Spending","Sử dụng"
+"Earned","Đã nhận được"
+"Spent","Đã sử dụng"
+"Order %1","Đơn %1"
+"Your order #%1 has been updated","Đơn #%1 của bạn đã được cập nhật"
+"from %1 to %2","Từ %1 tới %2"
+"Estimated Delivery Date", "Ngày dự kiến giao hàng"
+"From %1 to %2","Từ %1 tới %2"
+"Delete Account","Xoá tài khoản"
+"Delete your COCORO Life Vietnam account","Xoá tài khoản COCORO Life Vietnam của bạn."
+"Are you looking to delete your account on COCORO Life Vietnam? Once deleted, your account, including the loyalty progress and orders, cannot be restored.","Bạn đang muốn xoá tài khoản của bạn ở COCORO Life Vietnam? Sau khi xoá, tài khoản của bạn, bao gồm lịch sử khách hàng thân thiết và thông tin đơn hàng, sẽ không thể được khôi phục."
+"Your account has been successfully deleted.","Tài khoản của bạn đã được xoá thành công."
+"You can still surf our products without logging-in, or create a new account using your email address.","Bạn vẫn có thể xem các sản phẩm của chúng tôi mà không cần phải đăng nhập, hoặc bạn có thể tạo tài khoản mới bằng email của bạn."
+"Your account has been successfully deleted. You’ll be redirected to the %1 in 5 seconds","Tài khoản của bạn đã được xoá thành công. Bạn sẽ được quay về %1 sau 5 giây"
+"<a href=""%1"">Homepage</a>","<a href=""%1"">Trang chủ</a>"
+"Account Deleted","Tài khoản đã được xoá"
+"Delete","Xoá",module,Cocoro_User
+"View tier benefits","Xem quyền lợi thứ hạng"
+"Recent Coco Coins Transactions","Giao Dịch Coco Coin Gần Đây"
+"Expiry Date","Ngày Hết Hạn"
+"N/A","Không khả dụng",module,Mageplaza_RewardPoints
+"Please enter your partner registration code","Vui lòng điền mã đăng ký thành viên đối tác"
+"Registration Code","Mã đăng ký"
+"The registration code is no longer valid.","Mã đăng ký không còn hiệu lực."
+"Type here","Nhập ở đây"
+"Additional Information:","Thông tin hoá đơn VAT:"
+"Please enter the registration code before registering an account.","Vui lòng nhập mã đăng ký trước khi đăng ký tài khoản."
+"The registration code could not be verified.","Không thể xác minh mã đăng ký."
+"Please enter the registration code to complete the account registration process.","Vui lòng nhập mã đăng ký để hoàn tất quá trình đăng ký tài khoản."
+"Your Facebook account does not have an email address, please try again with a different account or use email and password.", "Tài khoản Facebook của bạn không có địa chỉ email, vui lòng thử lại bằng tài khoản khác hoặc sử dụng email và mật khẩu."
+"Step 1: Please select a bank from the list below and click Next","Bước 1: Xin vui lòng chọn một ngân hàng theo danh sách bên dưới và nhấn Tiếp tục"
+"Step 2: Select a tenor (VND)","Bước 2: Chọn kỳ hạn (VND)"
+"Step 1","Bước 1"
+"Search for your bank here","Tìm ngân hàng của bạn"
+"Installment Tenor","Thời hạn trả góp "
+"Installment Price","Giá trị đăng ký trả góp"
+"Monthly Payment","Số tiền thanh toán hàng tháng"
+"Total Payment","Tổng giá trị trả góp"
+"Difference","Phí trả góp"
+"Select a Tenor","Chọn kỳ hạn"
+"You have not selected any bank.","Vui lòng chọn ngân hàng"
+"You have not selected any tenor","Quý khách chưa chọn kỳ hạn"
+"months","tháng"
+"Next","Tiếp Tục",module,KyanonDigital_PayooPayment
+"Done","Hoàn Thành",module,KyanonDigital_PayooPayment
+"Cannot connect to the payment gateway, please try again in a moment. If the problem persists, please report to our support team via the messaging feature.","Không thể kết nối đến cổng thanh toán, xin hãy thử lại sau ít phút. Nếu lỗi vẫn xuất hiện, xin vui lòng phản hồi đến đội hỗ trợ của chúng tôi qua chức năng trò chuyện"
+"Issue receipt","Xuất phiếu thu"
+"Your Facebook account does not have an email address, please try again with a different account or use email and password.", "Tài khoản Facebook của quý khách không có thông tin địa chỉ email, vui lòng thử lại bằng tài khoản khác hoặc sử dụng email và mật khẩu."
+"Please select a shipping method to continue.","Vui lòng chọn phương thức vận chuyển để tiếp tục."
+"Please enter your partner registration code","Vui lòng điền mã đăng ký thành viên đối tác"
+"Registration Code","Mã đăng ký"
+"Additional Information:","Thông tin hoá đơn VAT"
+"Your order contains e-voucher products. Please remove them or other physical products to checkout.","Đơn hàng của quý khách đang có sản phẩm e-voucher. Vui lòng xoá voucher khỏi giỏ hàng hoặc các sản phẩm khác để tiếp tục thanh toán."
+"E-Voucher products:","Sản phẩm E-Voucher:"
+"My Vouchers","Voucher của tôi"
+"Search & Filter","Tìm kiếm & lọc"
+"All Statuses","Tất cả trạng thái"
+"Unused","Chưa sử dụng"
+"Used","Đã sử dụng"
+"Canceled","Đã huỷ"
+"Locked","Đã khoá"
+"Store Locations","Danh sách cửa hàng"
+"Use History","Lịch sử dùng"
+"Expiry Date","Ngày hết hạn"
+"Use","Sử dụng"
+"Partly Use","Sử dụng một phần"
+"Recover","Khôi phục"
+"Issue receipt","Xuất phiếu thu"
+"No Payment Information Required","Không yêu cầu thông tin thanh toán"
+"E-vouchers cannot be combined with tangible products in an order.","Sản phẩm e-voucher không thể kết hợp với các sản phẩm khác trong cùng một đơn hàng."
+"You have already had other tangible products in your shopping cart, please complete checking them out to add <strong>%1</strong> to your cart.","Quý khách đã có sản phẩm hữu hình trong giỏ hàng, vui lòng hoàn thành đơn hàng trước khi thêm <strong>%1</strong> vào giỏ hàng."
+"Used Price","Đã dùng"
+"Use Now","Sử dụng"
+"Please select a payment method to continue.","Vui lòng chọn một phương thức thanh toán để tiếp tục."
+"Coco Coins was reset","Quyền lợi khách hàng thân thiết đã hết hạn"
+"The products in this order will be added to your shopping cart to checkout.","Các sản phẩm của quý khách trên đơn hàng này sẽ được thêm vào giỏ hàng để thanh toán."
+"<strong>%1</strong> is no longer available for sale.","<strong>%1</strong> đã ngừng kinh doanh.",module,Magento_Sales
+"items","mục",module,Cocoro_ImprovedShoppingCart
+"Remove All","Xóa tất cả",module,Cocoro_ImprovedShoppingCart
+"Please select an item to checkout.","Vui lòng chọn một sản phẩm để thực hiện thanh toán.",module,Cocoro_ImprovedShoppingCart
+"Removed Products","Sản phẩm không khả dụng",module,Cocoro_ImprovedShoppingCart
+"Product no longer exists!","Sản phẩm không tồn tại",module,Cocoro_ImprovedShoppingCart
+"Stock is insufficient","Số tồn kho không đủ",module,Cocoro_ImprovedShoppingCart
+"%1 is no longer available for sale.","%1 đã ngừng kinh doanh.",module,Cocoro_ImprovedShoppingCart
+"The product is no longer available for sale.","Sản phẩm đã ngừng kinh doanh.",module,Cocoro_ImprovedShoppingCart
+"Your order contains e-voucher products. Please unselect them or other tangible products to checkout.","Đơn hàng của quý khách đang có sản phẩm e-voucher. Vui lòng xoá voucher khỏi giỏ hàng hoặc các sản phẩm khác để tiếp tục thanh toán.",module,Cocoro_ImprovedShoppingCart
+"E-Voucher products:","Sản phẩm E-Voucher",module,Cocoro_ImprovedShoppingCart
+"All products in your shopping cart will be removed.","Toàn bộ sản phẩm trong giỏ hàng của quý khách sẽ bị xoá.",module,Cocoro_ImprovedShoppingCart
+"Pending Payment","Chờ thanh toán",module,Magento_Sales
+"Pending","Chờ xử lý",module,Magento_Sales
+"Verified","Đã xác nhận",module,Magento_Sales
+"Sent to SAP","Đang xử lý",module,Magento_Sales
+"Processing","Đang xử lý",module,Magento_Sales
+"Shipping","Đang vận chuyển",module,Magento_Sales
+"Delivery Failed","Giao hàng thất bại",module,Magento_Sales
+"Delivered","Đã giao hàng",module,Magento_Sales
