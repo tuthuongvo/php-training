@@ -56,3 +56,33 @@ CREATE table CTHD (
 )
 ````
 
+# **- Tạo câu lệnh Insert, update và xoá dữ liệu**
+1. Tạo các quan hệ và khai báo các khóa chính, khóa ngoại của quan hệ.
+- Tạo khoá ngoại cho thuộc tính MAKH cho bảng HOADON:
+````
+ALTER TABLE HOADON
+ADD CONSTRAINT fk_MAKH
+FOREIGN KEY (MAKH)
+REFERENCES KHACHHANG (MAKH);
+````
+- Tạo khoá ngoại cho thuộc tính MANV cho bảng HOADON:
+````
+ALTER TABLE HOADON
+ADD CONSTRAINT fk_MANV
+FOREIGN KEY (MANV)
+REFERENCES NHANVIEN (MANV);
+````
+- Tạo khoá ngoại cho thuộc tính SOHD cho bảng CTHD:
+````
+ALTER TABLE CTHD
+ADD CONSTRAINT fk_SOHD
+FOREIGN KEY (SOHD)
+REFERENCES HOADON (SOHD);
+````
+- Tạo khoá ngoại cho thuộc tính MASP cho bảng CTHD:
+````
+ALTER TABLE CTHD
+ADD CONSTRAINT fk_MASP
+FOREIGN KEY (MASP)
+REFERENCES SANPHAM (MASP);
+````
