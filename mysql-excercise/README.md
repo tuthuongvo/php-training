@@ -321,3 +321,35 @@ VALUES ('1022', 'ST07', '1');
 INSERT INTO CTHD (SOHD, MASP, SL)
 VALUES ('1023', 'ST04', '6');
 ````
+2. Thêm vào thuộc tính GHICHU có kiểu dữ liệu varchar(20) cho quan hệ SANPHAM.
+````
+ALTER TABLE SANPHAM
+ADD GHICHU varchar(20);
+````
+3. Thêm vào thuộc tính LOAIKH có kiểu dữ liệu là tinyint cho quan hệ KHACHHANG.
+````
+ALTER TABLE KHACHHANG
+ADD LOAIKH tinyint;
+````
+4. Cập nhật tên “Nguyễn Văn B” cho dữ liệu Khách Hàng có mã là KH01
+````
+UPDATE KHACHHANG
+SET HOTEN = 'Nguyen Van B'
+WHERE MAKH = 'KH01';
+````
+5. Cập nhật tên “Nguyễn Văn Hoan” cho dữ liệu Khách Hàng có mã là KH09 và năm đăng ký là 2007
+````
+UPDATE KHACHHANG
+SET HOTEN = 'Nguyen Van Hoan'
+WHERE MAKH = 'KH09' AND YEAR(NGDK) = 2007;
+````
+6. Sửa kiểu dữ liệu của thuộc tính GHICHU trong quan hệ SANPHAM thành varchar(100).
+````
+ALTER TABLE SANPHAM
+MODIFY COLUMN GHICHU varchar(100);
+````
+7. Xóa thuộc tính GHICHU trong quan hệ SANPHAM.
+````
+ALTER TABLE SANPHAM
+DROP COLUMN GHICHU;
+````
