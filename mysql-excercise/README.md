@@ -353,3 +353,232 @@ MODIFY COLUMN GHICHU varchar(100);
 ALTER TABLE SANPHAM
 DROP COLUMN GHICHU;
 ````
+8. Xoá tất cả dữ liệu khách hàng có năm sinh 1971 <br>
+-- Delete data from table CTHD
+````
+DELETE FROM CTHD WHERE SOHD IN (SELECT SOHD FROM HOADON WHERE MAKH IN (SELECT MAKH FROM KHACHHANG WHERE YEAR(NGSINH) = 1971))
+````
+-- Delete data from table HOADON
+````
+DELETE FROM HOADON WHERE MAKH IN (SELECT MAKH FROM KHACHHANG WHERE YEAR(NGSINH) = 1971)
+````
+-- Delete data from table KHACHHANG
+````
+DELETE FROM KHACHHANG WHERE YEAR(NGSINH) = 1971
+````
+9. Xoá tất cả dữ liệu khách hàng có năm sinh 1971 và năm đăng ký 2006
+````
+DELETE FROM KHACHHANG WHERE YEAR(NGSINH) = 1971 AND YEAR(NGDK) = 2006
+````
+10. Xoá tất hoá đơn có mã KH = KH01 <br>
+-- Delete data from table CTHD
+````
+DELETE FROM CTHD WHERE SOHD IN (SELECT SOHD FROM HOADON WHERE MAKH = 'KH01')
+````
+-- Delete data from table HOADON
+````
+DELETE FROM HOADON WHERE MAKH = 'KH01'
+````
+**I. Bài tập thực hành câu lệnh select**
+1. In ra danh sách các sản phẩm (MASP,TENSP) do “Trung Quoc” sản xuất.
+````
+SELECT MASP,TENSP, NUOCSX
+FROM SANPHAM
+WHERE NUOCSX = 'Trung Quoc'
+````
+2. In ra danh sách các sản phẩm (MASP, TENSP) có đơn vị tính là “cay”, ”quyen”.
+````
+SELECT MASP,TENSP
+FROM SANPHAM
+WHERE DVT = 'cay' OR DVT = 'quyen'
+````
+3. In ra danh sách các sản phẩm (MASP,TENSP) có mã sản phẩm bắt đầu là “B” và kết thúc là “01”.
+````
+SELECT MASP, TENSP
+FROM SANPHAM
+WHERE MASP LIKE 'B%01'
+````
+4. In ra danh sách các sản phẩm (MASP,TENSP) do “Trung Quốc” sản xuất có giá từ 30.000 đến 40.000.
+````
+SELECT MASP,TENSP, NUOCSX,GIA
+FROM SANPHAM
+WHERE NUOCSX = 'Trung Quoc' AND GIA>=30000 AND GIA<=40000
+````
+5. In ra danh sách các sản phẩm (MASP,TENSP) do “Trung Quoc” hoặc “Thai Lan” sản xuất có giá từ 30.000 đến 40.000.
+````
+SELECT MASP,TENSP, NUOCSX,GIA
+FROM SANPHAM
+WHERE (NUOCSX = 'Trung Quoc' OR NUOCSX = 'Thai Lan') AND GIA>=30000 AND GIA<=40000
+````
+6. In ra các số hóa đơn, trị giá hóa đơn bán ra trong ngày 1/1/2007 và ngày 2/1/2007.
+````
+SELECT SOHD,TRIGIA
+FROM HOADON
+WHERE NGHD = '2007-1-1' OR NGHD = '2007-1-2'
+````
+7. In ra các số hóa đơn, trị giá hóa đơn trong tháng 1/2007, sắp xếp theo ngày (tăng dần) và trị giá của hóa đơn (giảm dần).
+````
+SELECT SOHD,NGHD,TRIGIA
+FROM HOADON
+WHERE MONTH(NGHD)=1 AND YEAR(NGHD)=2007
+ORDER BY NGHD ASC, TRIGIA DESC
+````
+8. In ra danh sách các khách hàng (MAKH, HOTEN) đã mua hàng trong ngày 1/1/2007.
+````
+SELECT KHACHHANG.MAKH,HOTEN
+FROM KHACHHANG JOIN HOADON ON KHACHHANG.MAKH = HOADON.MAKH
+WHERE NGHD = '2007-1-1'
+````
+9.In ra số hóa đơn, trị giá các hóa đơn do nhân viên có tên “Nguyen Van B” lập trong ngày 28/10/2006.
+````
+SELECT SOHD,TRIGIA
+FROM  HOADON A, NHANVIEN B
+WHERE A.MANV=B.MANV AND NGHD='2006-10-28' AND HOTEN='NGUYEN VAN B'
+````
+10. In ra danh sách các sản phẩm (MASP,TENSP) được khách hàng có tên “Nguyen Van B” mua trong tháng 10/2006.
+````
+SELECT sp.MASP, sp.TENSP
+FROM KHACHHANG kh, HOADON hd, CTHD ct, SANPHAM sp
+WHERE kh.HOTEN='Nguyen Van B' AND hd.MAKH = kh.MAKH AND 
+year(hd.NGHD)=2006 AND month(hd.NGHD)=10 AND ct.SOHD=hd.SOHD AND sp.MASP=ct.MASP
+````
+**II. Các yêu cầu tạo dữ liệu**
+1. Xóa thuộc tính GHICHU trong quan hệ SANPHAM. (bị trùng với câu số 7)
+````
+ALTER TABLE SANPHAM
+DROP COLUMN GHICHU;
+````
+2. Làm thế nào để thuộc tính LOAIKH trong quan hệ KHACHHANG có thể lưu các giá trị là: “Vang lai”, “Thuong xuyen”, “Vip”, …
+- Thay đổi kiểu dữ liệu của thuộc tính LOAIKH trong quan hệ KHACHHANG thanh kiểu varchar(100) 
+````
+ALTER TABLE KHACHHANG
+MODIFY COLUMN LOAIKH varchar(100);
+````
+3. Đơn vị tính của sản phẩm chỉ có thể là (“cay”,”hop”,”cai”,”quyen”,”chuc”)
+````
+ALTER TABLE SANPHAM  
+ADD CONSTRAINT SANPHAM_DVT CHECK (DVT = 'cay' OR DVT = 'hop' OR DVT = 'cai' OR DVT = 'quyen' OR DVT = 'chuc')
+````
+4. Giá bán của sản phẩm từ 500 đồng trở lên.
+````
+ALTER TABLE SANPHAM ADD CONSTRAINT SANPHAM_GIA CHECK(GIA > 500)
+````
+5. Mỗi lần mua hàng, khách hàng phải mua ít nhất 1 sản phẩm.
+````
+ALTER TABLE HOADON
+ADD CONSTRAINT check_min_purchase
+CHECK (EXISTS (
+    SELECT 1 FROM HOADON
+    WHERE MAKHH = HOADON.MAKH
+    GROUP BY MAKHH
+    HAVING COUNT(*) >= 1
+));
+````
+6. Ngày khách hàng đăng ký là khách hàng thành viên phải lớn hơn ngày sinh của người đó.
+````
+ALTER TABLE KHACHHANG ADD CHECK(NGDK>NGSINH)
+````
+7. Ngày mua hàng (NGHD) của một khách hàng thành viên sẽ lớn hơn hoặc bằng ngày khách hàng đó đăng ký thành viên (NGDK).
+````
+CREATE TRIGGER CHECH_NGAYKH
+ON HOADON
+FOR INSERT
+AS
+IF UPDATE(NGHD)
+BEGIN
+DECLARE @NGHD SMALLDATETIME, @NGDK SMALLDATETIME
+SET @NGHD=(SELECT NGHD FROM INSERTED)
+SET @NGDK=(SELECT NGDK FROM KHACHHANG A, INSERTED B WHERE A.MAKH=B.MAKH)
+IF(@NGHD<@NGDK)
+BEGIN
+PRINT'NGHD PHAI LON HON NGDK'
+ROLLBACK TRAN --Câu lệnh quay lui khi thực hiện biến cố không thành công
+END
+ELSE
+BEGIN
+PRINT'HOA DON DA THEM THANH CONG'
+END
+END
+-------------------------------------------------
+CREATE TRIGGER CHECK_NGAYKH
+ON HOADON
+FOR UPDATE, INSERT
+AS
+IF UPDATE(NGHD)
+BEGIN
+IF(SELECT COUNT(*) FROM KHACHHANG K, INSERTED I
+WHERE K.MAKH = I.MAKH AND
+I.NGHD < K.NGDK)>0
+BEGIN
+PRINT'NGHD PHAI LON HON NGDK'
+ROLLBACK TRAN
+END
+ELSE
+BEGIN
+PRINT'HOA DON DA THEM THANH CONG'
+END
+END
+````
+8. Ngày bán hàng (NGHD) của một nhân viên phải lớn hơn hoặc bằng ngày nhân viên đó vào làm.
+````
+CREATE TRIGGER TRG_NGAYNV
+ON HOADON
+FOR UPDATE, INSERT
+AS
+IF UPDATE(NGHD)
+BEGIN
+DECLARE @NGHD SMALLDATETIME, @NGVL SMALLDATETIME
+SET @NGHD=(SELECT NGHD FROM INSERTED)
+SET @NGVL=(SELECT NGVL FROM NHANVIEN A,INSERTED B WHERE A.MANV=B.MANV)
+IF(@NGHD<@NGVL)
+BEGIN
+PRINT 'NGHD PHAI LON HON NGVL'
+ROLLBACK TRAN
+END
+END
+---------------------------------------------------------------------------------
+CREATE TRIGGER TRG_NGAYNV02 ON HOADON
+FOR INSERT, UPDATE
+AS
+BEGIN
+IF EXISTS ( SELECT * FROM INSERTED A, NHANVIEN B
+WHERE A.MANV = B.MANV AND A.NGHD < B.NGVL)
+BEGIN
+PRINT 'NGHD PHAI LON HON NGVL'
+ROLLBACK TRAN
+END
+IF(UPDATE(NGHD))
+BEGIN
+IF EXISTS ( SELECT * FROM INSERTED A, DELETED B
+WHERE A.SOHD = B.SOHD AND A.NGHD = B.NGHD)
+BEGIN
+PRINT'DU LIEU MOI CHEN GIONG DU LIEU DA CO'
+ROLLBACK TRAN
+END
+END
+````
+9. Mỗi một hóa đơn phải có ít nhất một chi tiết hóa đơn.
+````
+CREATE TRIGGER SLHD_CHECK
+ON HOADON
+FOR INSERT
+AS
+  DECLARE @SOHOADON INT
+  SELECT @SOHOADON=SOHD
+  FROM INSERTED
+     INSERT INTO CTHD VALUES(@SOHOADON,'NULL',1)
+--TRIGGER ON TABLE CTHD
+CREATE TRIGGER SLHD
+ON CTHD
+FOR DELETE, UPDATE
+AS
+  DECLARE @SLOHOADON INT
+  SELECT @SLHOADON=COUNT(CTHD.SOHD)
+  FROM DELETED, HOADON
+  WHERE DELETED.SOHD=HOADON.SOHD
+IF @SLHOADON<1
+   BEGIN
+     ROLLBACK TRAN
+     PRINT('MOI HOA DON PHAI CO IT NHAT 1 HOA DON CHI TIET')
+  END 
+````
