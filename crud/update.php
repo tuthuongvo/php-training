@@ -30,7 +30,7 @@ if(isset($_POST["id"]) && !empty($_POST["id"])){
     }
 
     // Validate salary
-    $input_sodt = trim($_POST["salary"]);
+    $input_sodt = trim($_POST["phone"]);
     if(empty($input_sodt)){
         $sodt_err = "Please enter the salary amount.";
     } elseif(!ctype_digit($input_sodt)){
